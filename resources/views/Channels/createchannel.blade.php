@@ -21,6 +21,10 @@
             <div>
                 <label for="creationDate" class="block text-white">Creation Date:</label>
                 <input type="text" name="creationDate" id="creationDate" value="{{ old('creationDate') }}" class="bg-gray-800 text-white">
+            </div>
+            <div>
+                <label for="User_userId" class="block text-white">Owner Id:</label>
+                <input type="text" name="User_userId" id="User_userId" value="{{ old('User_userId') }}" class="bg-gray-800 text-white">
             </div><br>
             <input type="submit" value="Create Post" class="bg-gray-800 text-white">
     </form>

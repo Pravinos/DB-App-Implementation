@@ -37,7 +37,7 @@ Route::get('/features', function () {
 
 Route::get('/features/userfinder', function () {
 
-    return view('Features.findusers');
+    return view('Features.userfindertest');
 
 })->name('userfinder');
 
@@ -53,5 +53,9 @@ Route::post('/comments', [CommentsController::class ,'store'])->name('comments.s
 
 Route::get('/comments/create', [CommentsController::class ,'create'])->name('comments.create');
 
+Route::get('/features/userfinder/test', function () {
 
+    return view('Features.findusers');
+
+})->name('userfindertest');
 

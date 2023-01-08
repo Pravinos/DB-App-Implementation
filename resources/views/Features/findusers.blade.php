@@ -26,6 +26,7 @@
             </ul>
         </div>
         <br>
+
         <br>
         <div class="max-w-5xl mx-auto flex justify-center">
             <a href="{{ url('/main') }}" class="btn btn-primary mx-2 rounded-full shadow-md px-4 py-2 text-xl">Return to Homepage</a>

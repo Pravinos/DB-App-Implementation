@@ -10,6 +10,7 @@
                     <li class="mb-2"><span class="font-bold">Channel Name:</span> {{ $channel->channelName }}</li>
                     <li class="mb-2"><span class="font-bold">Creation Date:</span> {{ $channel->creationDate }}</li>
                     <li class="mb-2"><span class="font-bold">Description:</span> {{ $channel->channelDescription }}</li>
+                    <li class="mb-2"><span class="font-bold">Owner Id:</span> {{ $channel->User_userId }}</li>
                 </ul>
             </div>
         @endforeach
